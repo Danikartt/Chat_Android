@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/karstenunsplash">
+
+        <!-- TextView para mostrar el nombre del destinatario -->
+        <TextView
+            android:id="@+id/tvDestinatario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/chatusuario"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="destinatario"
+            android:textColor="@color/blancoGris"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerChat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/etmensaje"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:hint="Escribe tu mensaje"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="@color/blancoGris"
+                android:textColor="@color/blancoGris"/>
+
+            <Button
+                android:id="@+id/btnenviarmensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/azul2"
+                android:paddingHorizontal="16dp"
+                android:text=">>"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blancoGris"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blancoGris">#E5E5E5</color>
+    <color name="azul1">#3F51B5</color>
+    <color name="azul2">#3D78C2</color>
+    <color name="recibido">#763B5F</color>
+    <color name="textoenviado">#383838</color>
+    <color name="remitente">#A8D5E2</color>
+    <color name="chatusuario">#B5386C68</color>
+    <color name="btneliminar">#B02441</color>
+</resources>
