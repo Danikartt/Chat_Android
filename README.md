@@ -1,40 +1,58 @@
-\# ChatActivity – App de Chat en Android 
+# ChatActivity – Aplicación de Chat para Android
 
+- Proyecto Android desarrollado como práctica personal para aprender arquitectura de apps, manejo de fragments y navegación entre pantallas. Incluye autenticación básica, gestión de grupos y un sistema de conversaciones.
 
+1.Funcionalidades principales:
 
-Aplicación de chat desarrollada en Android como proyecto personal. Permite gestionar usuarios, iniciar sesión, crear grupos y mantener conversaciones en tiempo real. 
+- Inicio de sesión y pantalla de acceso
+- Lista de conversaciones recientes
+- Chats individuales y grupales
+- Creación y administración de grupos
+- Navegación mediante fragments
+- Interfaz basada en XML
 
+2.Tecnologías utilizadas:
 
+- Android Studio
+- Java
+- XML para interfaces
+- Fragments y Navigation Component
+- Librerías estándar de Android
 
-\## Funcionalidades
+3.Estructura del proyecto:
 
-\- Inicio de sesión
+- app/src/main/java/... — Lógica de la aplicación y fragments
+- app/src/main/res/layout — Interfaces XML
+- app/src/main/res/values — Recursos (colores, strings, temas)
+- app/build.gradle.kts — Configuración del módulo
+- settings.gradle.kts — Configuración del proyecto
 
-\- Conversaciones 
+4.Instalación y ejecución:
 
-\- Chats grupales
+- Clonar el repositorio:
 
-\- Creación y administración de grupos 
+  bash
+  git clone https://github.com/Danikartt/Chat_Android.git
 
+- Abrir el proyecto en Android Studio
+- Sincronizar Gradle
+- Ejecutar en un emulador o dispositivo físico
 
+5.Objetivo del proyecto:
 
-\## Tecnologías
+- Este proyecto sirve como práctica para:
+  . Comprender la estructura de una app Android moderna
+  . Trabajar con fragments y navegación
+  . Mejorar habilidades con Java y Android Studio
 
-\- Android Studio
+6.Estado del proyecto:
 
-\- Java
+- En desarrollo. Se irán añadiendo mejoras y nuevas pantallas.
 
-\- XML
+7.Licencia
 
-\- Fragments 
+- Uso libre para fines educativos.
 
-
-
-\## Cómo ejecutarlo 
-
-1\. Clonar el repositorio: git clone https://github.com/Danikartt/Chat\_Android.git
-
-2\. Abrir en Android Studio
-
-3\. Ejecutar en emulador o dispositivo
+. Abrir en Android Studio
+. Ejecutar en emulador o dispositivo
 
