@@ -1,6 +1,6 @@
 # ChatActivity – Aplicación de Chat para Android
 
-- Proyecto Android desarrollado como práctica personal para aprender arquitectura de apps, manejo de fragments y navegación entre pantallas. Incluye autenticación básica, gestión de grupos y un sistema de conversaciones.
+- Proyecto desarrollado como ejercicio práctico, para aprender arquitectura de las aplicaciones en dispositivos Android, manejo de fragments y navegación entre pantallas. Incluye autenticación básica, gestión de grupos y un sistema de conversaciones.
 
 1.Funcionalidades principales:
 
